@@ -1,0 +1,676 @@
+/* 导航开始 */
+.zx-nav{
+    width: 100%;
+    min-width: 1200px;
+    height: 98px;
+    text-align: center;
+    /* background: red; */
+}
+.zx-nav .zx-nav-inner{
+    line-height: 30px;
+    display: flex;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    /* background: yellow; */
+    position: relative;
+}
+.zx-nav .zx-nav-inner .zx-logo{
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.zx-nav .zx-nav-inner .zx-word{
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    margin-top: 35px;
+    text-align: center;
+    margin-left: 28px;
+    color: #838383;
+    /* background: pink; */
+}
+.zx-line{
+    width: 80px;
+    display: block;
+    height: 5px;
+    background: #FF3795;
+    position: absolute;
+	bottom: 0px;
+    margin-left: 278px;
+    transition: all 0.7s;
+}
+/* 导航结束 */
+
+/* banner图的开始 */
+.zx-banner{
+    width: 1349px;
+    height: 636px;
+    background: cyan;
+    position: relative;
+
+}
+.zx-banner ul{
+    width: 100%;
+    height: 636px;
+    position: relative;
+}
+.zx-banner ul li{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px; 
+    background: red;  
+}
+.zx-banner ul li img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px; 
+    background: red;  
+}
+.zx-banner .zx-dian{
+    width: 97px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    left: 45%;
+    bottom: 15px;
+}
+.zx-banner .zx-dian div{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #fff;
+    margin-top: 10px;
+    z-index: 100;
+}
+/* banner结束 */
+
+/* 企业简介开始 */
+.jianjie-box{
+    width: 100%;
+    height: 614px;
+    margin-top: 122px;
+}
+.jianjie-box .J-logo{
+    width: 168px;
+    height: 87px;
+    margin: 0 auto;
+}
+.jianjie-box ul{
+    width: 1200px;
+    height: 527px;
+    padding: 30px 0 30px 0px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.jianjie-box ul>li{
+    width: 290px;
+    height: 459px;
+    position: relative;
+
+}
+
+.jianjie-box ul>li .J-box1-top{
+    width: 290px;
+    height: 314px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}  
+.jianjie-box ul>li .J-box1-bottom{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 290px;
+    height: 143px;
+    background: #F4F4F4;
+}
+.jianjie-box ul>li .J-box1-bottom .bottom-w1 {
+    font-size: 40px;
+    color: #8A8A8A;
+    text-align: center;
+    display: block;
+
+}
+
+.jianjie-box ul>li .J-box1-bottom .bottom-w2{
+    font-size: 18px;
+    color: #565656;
+    text-align: center;
+    line-height:28px;
+    display: block;
+}
+.jianjie-box ul>li .J-box1-bottom .bottom-w3{
+    color: #565656;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    line-height: 20px;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    white-space: normal !important;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;3
+}
+
+.jianjie-box ul>li:hover .J-box1-bottom {
+    height: 254px;
+    background: yellow;
+    transition: all 0.5s;
+}
+
+
+
+.jianjie-box ul>li .J-box1-bottom .Jia{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    margin: 0 auto;
+    margin-top: 35px;
+    font-size: 44px;
+    text-align: center;
+    line-height: 50px;
+    color: #333;
+    display: none;
+}
+.jianjie-box ul>li:hover .J-box1-bottom {
+    height: 254px;
+    background: yellow;
+    transition: all 0.7s;
+}
+.jianjie-box ul>li:hover .J-box1-bottom .bottom-w1{
+    color: #333;
+}
+
+.jianjie-box ul>li:hover .J-box1-bottom .bottom-w2{
+    color: #333;
+}
+
+.jianjie-box ul>li:hover .J-box1-bottom .bottom-w3{
+    
+}
+.jianjie-box ul>li:hover .J-box1-bottom .Jia{
+    display: block;
+}
+ /* 企业简介下面的图开始  */
+.zx-Xbox{
+    width: 100%;
+    height: 1090px;
+    /* position: relative; */
+}
+.zx-Xbox .X-box1{
+    width: 100%;
+    height: 635px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.zx-Xbox .X-box2{
+    width: 930px;
+    height: 512px;
+    margin:-246px auto;
+    display: flex;
+    justify-content:space-around;
+
+}
+.zx-Xbox .X-box2 .X-box2-1{
+    width: 252px;
+    height: 471px;
+    box-shadow: 10px 5px 15px #BDBCBC;
+    z-index: 30;
+}
+.zx-Xbox .X-box2 .X-box2-1 .X-box2-top{
+    width: 100%;
+    height: 246px;
+    background: #FF3795;
+    text-align: center;
+    padding: 40px 10px 10px 10px;
+    box-sizing: border-box;
+
+}
+.zx-Xbox .X-box2 .X-box2-1 .X-box2-top .X-box2-topw1{
+    font-size:18px;
+    line-height: 30px;
+    color: #fff;
+    display: block;
+} 
+
+.zx-Xbox .X-box2 .X-box2-1 .X-box2-top .X-box2-topw2{
+    font-size:12px;
+    line-height: 20px;
+    color: #fff;
+    display: block;
+    margin-top: 10px;
+
+} 
+.zx-Xbox .X-box2 .X-box2-1 .X-box2-top .X-box2-topw3{
+    font-size:12px;
+    line-height: 20px;
+    color: #fff;
+    float: right;
+    display: block;
+    margin-top: 60px;
+    
+} 
+
+.zx-Xbox .X-box2 .X-box2-1 .X-box2-bottom{
+    width: 100%;
+    height: 226px;
+} 
+
+.zx-Xbox .X-box2 .X-box2-1 .X-box2-under{
+    width: 103px;
+    height: 36px;
+    border-radius: 5px;
+    background: #DFC02F;
+    margin: -2px auto;
+    font-size: 16px;
+    line-height: 32px;
+    color: #fff;
+    text-align: center;
+}
+.zx-Xbox .X-box3{
+    width: 410px;
+    height: 87px;
+    line-height: 20px;
+    /* display: block; */
+    font-size: 12px;
+    text-align: center;
+    color: #333;
+    margin: 300px auto;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    white-space: normal !important;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;3
+}
+
+/* 企业简介下面的第二个图 */
+.XD-box{
+    width: 100%;
+    height: 793px;
+    position: relative;
+
+}
+.XD-box .XD-box1{
+    width:1098px;
+    height: 370px;
+    background: #fff; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.XD-box .XD-box2{
+    width: 844px;
+    height: 422px;
+    margin-top: -163px;
+    margin-left: 255px;
+    float: left;
+}
+.XD-box .XD-box3{
+    width: 250px;
+    height: 107px;
+    background: #FF3795;
+    float: right;
+}
+.XD-box .XD-box2 .XD-box2-left{
+    width: 510px;
+    height: 421px;
+    float: left;
+}
+.XD-box .XD-box2 .XD-box2-left .XD-box2-leftT{
+    width: 510px;
+    height: 351px;
+}
+.XD-box .XD-box2 .XD-box2-left .XD-box2-leftB{
+    width: 108px;
+    height: 25px;
+    margin-top: 15px;
+    margin-left: 10px;
+    background: yellow;
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+}
+.XD-box .XD-box2 .XD-box2-right{
+    width: 332px;
+    height: 421px;
+    background: #fff;
+    float: left;
+}
+.XD-box .XD-box2 .XD-box2-right .XD-box2-rightT{
+    width: 330px;
+    height: 200px;
+    padding: 20px 60px 20px 50px;
+    box-sizing: border-box;
+}
+.XD-box .XD-box2 .XD-box2-right .XD-box2-rightT .XD-box2-rightT-w1{
+    font-size: 18px;
+    color: #EA3E8D;
+}
+.XD-box .XD-box2 .XD-box2-right .XD-box2-rightT .XD-box2-rightT-w2{
+    font-size: 36px;
+    color: #EA3E8D;
+}
+.XD-box .XD-box2 .XD-box2-right .XD-box2-rightT .XD-box2-rightT-w3{
+    font-size: 12px;
+    color: #333;
+    line-height: 20px;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    white-space: normal !important;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;3
+}
+.XD-box .XD-box2 .XD-box2-right .XD-box2-rightB{
+    width: 330px;
+    height: 222px;
+}
+
+/* 加盟案例开始 */
+.JM-box{
+    width: 100%;
+    height: 665px;
+    /* background: pink; */
+
+}
+.JM-box .JM-logo{
+    width: 142px;
+    height: 65px;
+    margin: 0 auto;
+
+}
+.JM-box .JM-box1{
+    width: 844px;
+    height: 580px;
+    /* background: cyan; */
+    margin: 30px auto;
+    position: relative;
+
+}
+.JM-box .JM-box1D{
+    width: 100%;
+    height: 472px;
+    /* background: red; */
+    position: relative;
+
+}
+.JM-box .JM-box1D .JM-dong{
+    width: 100%;
+    height: 472px;
+    /* background: plum; */
+    position: absolute;
+    left: 0px ;
+    top: 0px;
+}
+.JM-box .JM-box1D .JM-dong .JM-dong-left{
+    width: 352px;
+    height: 470px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+
+}
+.JM-box .JM-box1D .JM-dong .JM-dong-right{
+    width: 491px;
+    height: 472px;
+    float: right;
+    padding: 89px 55px 51px 25px;
+    box-sizing: border-box;
+}
+.JM-box .JM-box1D .JM-dong .JM-dong-right .JM-dong-right-w1{
+    font-size: 22px;
+    color: #333;
+}
+.JM-box .JM-box1D .JM-dong .JM-dong-right .JM-dong-right-w2{
+    font-size: 16px;
+    color: #333;
+    display: block;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.zx-xian{
+    width: 100%;
+    height: 1px;
+    background: #333;
+    margin-left: 5px;
+    margin-top: 30px;
+
+}
+.zx-xian1{
+    width: 25px;
+    height: 5px;
+    background: #EA4076;
+
+    
+}
+.JM-box .JM-box1D .JM-dong .JM-dong-right .JM-dong-right-w3{
+    font-size: 14px;
+    color: #333;
+    display: block;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.JM-box .JM-box1D .JM-dong .JM-dong-right .JM-dong-rightB{
+    width: 107px;
+    height: 29px;
+    background: #FFDC36;
+    float: right;
+    margin-top: 20px;
+    color: #333;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+}
+
+
+.JM-box .JM-box1 .JM-dianBox{
+    width: 80px;
+    height: 26px;
+    position: absolute;
+    left: 45%;
+    bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.JM-box .JM-box1 .JM-dianBox .JM-dian{
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: #FFDC36;
+    margin-top: 10px;
+}
+
+
+/* 企业环境 */
+.QY-box{
+    width: 842px;
+    height: 495px;
+    margin: 0 auto;
+  
+}
+.QY-box .QY-logo{
+    width: 207px;
+    height: 91px;
+    margin: 0 auto;
+    display: block;
+}
+
+.QY-box .QY-box1{
+    width: 100%;
+    height: 384px;
+    padding: 26px 0px 38px 0px;
+    box-sizing: border-box;
+
+}
+.QY-box .QY-box1 .QY-box1-left{
+    width: 425px;
+    height: 359px;
+    float: left;
+     padding: 52px 50px 0px 5px;
+    box-sizing: border-box;
+}
+.QY-box .QY-box1 .QY-box1-left .QY-box1-left-w1{
+    font-size: 26px;
+    color: #333;
+    display: block;
+}
+.QY-box .QY-box1 .QY-box1-left .QY-box1-left-w2{
+    display: block;
+    font-size: 18px;
+    color: #333;
+}
+.QY-box .QY-box1 .QY-box1-left .QY-box1-left-w3{
+    display: block;
+    font-size: 14px;
+    color: #333;
+    display: block;
+    margin-top: 44px;
+
+}
+.QY-box .QY-box1 .QY-box1-left .QY-box1-left-w4{
+    display: block;
+    font-size: 14px;
+    color: #666;
+    display: block;
+    margin-top: 27px;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    white-space: normal !important;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;3
+
+}
+.QY-box .QY-box1 .QY-box1-left .QY-box1-leftT{
+    width: 110px;
+    height: 30px;
+    background: #FFDC36;
+    float: left;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    line-height: 32px;
+    margin-top: 10px;   
+}
+
+.QY-box .QY-box1 .QY-box1-right{
+    width: 417px;
+    height: 278px;
+    float: right;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* 咨询中心 */
+.ZX-box{
+    width: 844px;
+    height: 496px;
+    margin:40px auto;
+}
+.ZX-box .ZX-logo{
+    width: 207px;
+    height: 91px;
+    display: block;
+    margin: 0 auto;
+
+}
+.ZX-box .ZX-box1{
+    width:844px;
+    height: 391px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.ZX-box .ZX-box1 .ZX-box1-inner{
+    width:240px;
+    height: 387px;   
+}
+.ZX-box .ZX-box1 .ZX-box1-inner .inner-top{
+    width: 100%;
+    height: 352px;
+    display: block;
+}
+.ZX-box .ZX-box1 .ZX-box1-inner .inner-bottom{
+    width: 186px;
+    height: 10px;
+    background: #FFF43C;
+    margin: 0 auto;
+
+
+}
+
+/* footer */
+footer{
+    width: 100%;
+    height: 368px;
+    background: #FC1773;
+}
+.lyh-footer-box{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 78px 0 62px 0;
+}
+.lyh-footer-left{
+    float: left;
+    width: 418px;
+    height: 232px;
+    border-right: 1px solid #8B134F;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+.contact-tit{
+    font-size: 18px;
+    color: #fff;
+}
+.contact-tit img{
+    display: inline-block;
+    margin-left: 15px;
+}
+.contact-content{
+    font-size: 14px;
+    color: #fff;
+    padding: 4px 0;
+}
+.contact-content1{
+    font-size: 18px;
+    color: #fff;
+    margin-right:  42px;
+}
+.lyh-footer-mid{
+    float: left;
+    width: 564px;
+    height: 232px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 52px;
+}
+.lyh-footer-right{
+    float: right;
+    width:216px;
+    height: 212px;
+    margin: 10px 0;
+}
