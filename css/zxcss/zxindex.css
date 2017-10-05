@@ -387,8 +387,7 @@
 /* 加盟案例开始 */
 .JM-box{
     width: 100%;
-    height: 665px;
-    /* background: pink; */
+    height: 883px;
 
 }
 .JM-box .JM-logo{
@@ -398,31 +397,29 @@
 
 }
 .JM-box .JM-box1{
-    width: 844px;
-    height: 580px;
-    /* background: cyan; */
-    margin: 30px auto;
+    width: 1200px;
+    height: 772px;
+    margin: 40px auto;
     position: relative;
 
 }
 .JM-box .JM-box1D{
     width: 100%;
-    height: 472px;
-    /* background: red; */
+    height: 100%;
     position: relative;
+    box-shadow: 5px 0px 10px  #eee;
 
 }
 .JM-box .JM-box1D .JM-dong{
     width: 100%;
-    height: 472px;
-    /* background: plum; */
+    height: 100%;
     position: absolute;
     left: 0px ;
     top: 0px;
 }
 .JM-box .JM-box1D .JM-dong .JM-dong-left{
-    width: 352px;
-    height: 470px;
+    width: 500px;
+    height: 668px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -430,10 +427,10 @@
 
 }
 .JM-box .JM-box1D .JM-dong .JM-dong-right{
-    width: 491px;
-    height: 472px;
+    width: 700px;
+    height: 669px;
     float: right;
-    padding: 89px 55px 51px 25px;
+    padding: 127px 55px 51px 25px;
     box-sizing: border-box;
 }
 .JM-box .JM-box1D .JM-dong .JM-dong-right .JM-dong-right-w1{
@@ -452,7 +449,7 @@
     height: 1px;
     background: #333;
     margin-left: 5px;
-    margin-top: 30px;
+    margin-top: 42px;
 
 }
 .zx-xian1{
@@ -470,11 +467,11 @@
     margin-left: 10px;
 }
 .JM-box .JM-box1D .JM-dong .JM-dong-right .JM-dong-rightB{
-    width: 107px;
-    height: 29px;
+    width: 152px;
+    height: 36px;
     background: #FFDC36;
     float: right;
-    margin-top: 20px;
+    margin-top: 103px;
     color: #333;
     font-size: 16px;
     line-height: 32px;
@@ -503,9 +500,9 @@
 
 /* 企业环境 */
 .QY-box{
-    width: 842px;
-    height: 495px;
-    margin: 0 auto;
+    width: 1200px;
+    height: 674px;
+    margin:60px auto;
   
 }
 .QY-box .QY-logo{
@@ -523,8 +520,8 @@
 
 }
 .QY-box .QY-box1 .QY-box1-left{
-    width: 425px;
-    height: 359px;
+    width: 611px;
+    height: 473px;
     float: left;
      padding: 52px 50px 0px 5px;
     box-sizing: border-box;
@@ -532,17 +529,19 @@
 .QY-box .QY-box1 .QY-box1-left .QY-box1-left-w1{
     font-size: 26px;
     color: #333;
+    font-weight: 700;
     display: block;
 }
 .QY-box .QY-box1 .QY-box1-left .QY-box1-left-w2{
     display: block;
     font-size: 18px;
+    font-weight: 600;
     color: #333;
 }
 .QY-box .QY-box1 .QY-box1-left .QY-box1-left-w3{
     display: block;
     font-size: 14px;
-    color: #333;
+    color: #666;
     display: block;
     margin-top: 44px;
 
@@ -563,20 +562,21 @@
 
 }
 .QY-box .QY-box1 .QY-box1-left .QY-box1-leftT{
-    width: 110px;
-    height: 30px;
+    width: 157px;
+    height: 42px;
     background: #FFDC36;
     float: left;
-    font-size: 16px;
+    font-weight: 600;
+    font-size: 18px;
     color: #333;
     text-align: center;
-    line-height: 32px;
-    margin-top: 10px;   
+    line-height: 42px;
+    margin-top: 21px;   
 }
 
 .QY-box .QY-box1 .QY-box1-right{
-    width: 417px;
-    height: 278px;
+    width: 587px;
+    height: 397px;
     float: right;
     background-position: center;
     background-size: cover;
@@ -585,8 +585,8 @@
 
 /* 咨询中心 */
 .ZX-box{
-    width: 844px;
-    height: 496px;
+    width: 1200px;
+    height: 688px;
     margin:40px auto;
 }
 .ZX-box .ZX-logo{
@@ -597,24 +597,24 @@
 
 }
 .ZX-box .ZX-box1{
-    width:844px;
-    height: 391px;
+    width:100%;
+    height: 532px;
     margin-top: 20px;
     display: flex;
     justify-content: space-around;
 
 }
 .ZX-box .ZX-box1 .ZX-box1-inner{
-    width:240px;
-    height: 387px;   
+    width:338px;
+    height: 516px;   
 }
 .ZX-box .ZX-box1 .ZX-box1-inner .inner-top{
     width: 100%;
-    height: 352px;
+    height: 504px;
     display: block;
 }
 .ZX-box .ZX-box1 .ZX-box1-inner .inner-bottom{
-    width: 186px;
+    width: 268px;
     height: 10px;
     background: #FFF43C;
     margin: 0 auto;
