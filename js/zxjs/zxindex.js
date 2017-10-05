@@ -96,6 +96,7 @@ Array.from(zx_word).forEach(function(val,index){
 		JM_dian[num1].style.borderRadius='5px';
 		JM_dian[num1].style.background='#FF3795';
 	}
+	
 	var t1=setInterval(function(){
 		move1()
 	},1000)
@@ -108,12 +109,16 @@ Array.from(zx_word).forEach(function(val,index){
 		move1();
 	},1000)
 	}
-	Array.from(JM_dian).forEach(function(val,index){
-		val.onmouseenter=function(){
-			num1=index-1;
+
+	Array.from(JM_dian).forEach(function(val1,index1){
+		val1.onmouseenter=function(){
+			alert(1)
+			num1=index1-1;
 			move1()
 		}
+
 	})
+
 
 
 
