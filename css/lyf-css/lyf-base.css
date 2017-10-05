@@ -1,0 +1,22 @@
+body{
+	margin: 0;
+	font: 14px/1.5 '黑体','arial';
+	font-weight: normal;
+}
+ul,ol,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+img{
+	/* IE6-10  用a标签包图片  会出现蓝色边框 */
+	border: 0;
+}
+p,h1,h2,h3,h4,h5{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}

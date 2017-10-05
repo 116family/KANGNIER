@@ -1,0 +1,303 @@
+/* 导航部分 */
+.head{
+	width: 1200px;
+	height: 98px;
+	margin: 0 auto;
+}
+.zx-nav{
+    width: 100%;
+    min-width: 1200px;
+    height: 98px;
+    text-align: center;
+    /* background: red; */
+}
+.zx-nav .zx-nav-inner{
+    line-height: 30px;
+    display: flex;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    /* background: yellow; */
+    position: relative;
+}
+.zx-nav .zx-nav-inner .zx-logo{
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.zx-nav .zx-nav-inner .zx-word{
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    margin-top: 35px;
+    text-align: center;
+    margin-left: 28px;
+    color: #838383;
+    /* background: pink; */
+}
+.zx-line{
+    width: 80px;
+    display: block;
+    height: 5px;
+    background: #FF3795;
+    position: absolute;
+	bottom: 0px;
+    margin-left: 278px;
+    transition: all 0.7s;
+}
+/* 导航结束 */
+
+/* 面包屑 */
+.mianbaoxie{
+	width: 1200px;
+	height: 50px;
+	margin: 0 auto;
+	padding-top: 25px;
+	box-sizing: border-box;
+}
+.mianbaoxie a{
+	font-size: 14px;
+	color: #010101;
+	display: block;
+	float: left;
+	text-decoration: underline;
+}
+.mianbaoxie p{
+	font-size: 14px;
+	color: #010101;
+	display: block;
+	float: left;
+}
+.mianbaoxie i{
+	display: block;
+	float: left;
+	margin: 0 10px;
+	font-style: normal;
+}
+/* 标题部分 */
+.tit_box{
+	width: 1200px;
+	height: 160px;
+	/* background: pink; */
+	margin: 0 auto;
+	position: relative;
+}
+.tit_box .tit_words{
+	width: 240px;
+	height: 100%;
+	float: left;
+	margin-left: 74px;
+	position: relative;
+}
+.tit_box .tit_words .feibox{
+	width: 30px;
+	height: 20px;
+	position: absolute;
+	right: 13px;
+	top: 26px;
+}
+.tit_box .tit_words .chtitle{
+	width: 100%;
+	height: 35px;
+	margin-top: 60px;
+	padding-left: 15px;
+	box-sizing: border-box;
+	line-height: 35px;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	color: #e70f77;
+}
+.tit_box .tit_words .entitle{
+	width: 100%;
+	height: 27px;
+	padding-left: 15px;
+	box-sizing: border-box;
+	font-size: 18px;
+	color: #e70f77;
+}
+.tit_box .tit_words .entitle2{
+	width: 100%;
+	height: 20px;
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+.tit_box .tit_xian{
+	width: 778px;
+	height: 2px;
+	background: #e93a72;
+	float: left;
+	margin-top: 93px;
+}
+.tit_box .feibox2{
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: 98px;
+	left: 400px;
+}
+/* 正文部分 */
+.zhengwen{
+	width: 1200px;
+	height: 1166px;
+	margin: 0 auto;
+}
+.zhengwen .category{
+	width: 720px;
+	height: 1044px;
+	margin: 0 auto;
+}
+.zhengwen .category .title{
+	width: 100%;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	color: #ff3795;
+}
+.zhengwen .category .info{
+	width: 100%;
+	height: 13px;
+	margin-top: 12px;
+	line-height: 13px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	padding-left: 92px;
+	box-sizing: border-box;
+}
+.zhengwen .category .info p{
+	color: #999999;
+	margin-left: 25px;
+	float: left;
+}
+.zhengwen .category .info a{
+	color: #ff3795;
+	float: left;
+}
+.zhengwen .category .item1{
+	width: 100%;
+	height: 213px;
+	margin-top: 21px;
+}
+.zhengwen .category .item1 .description{
+	width: 100%;
+	height: 90px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #555;
+	line-height: 23px;
+}
+.zhengwen .category .item1 .english{
+	width: 100%;
+	height: 123px;
+	text-align: center;
+	font-size: 14px;
+	color: #555;
+	line-height: 23px;
+}
+.zhengwen .category .image{
+	width: 100%;
+	height: 510px;
+	position: relative;
+}
+.zhengwen .category .image ol:first-child{
+	width: 375px;
+	height: 227px;
+	float: left;
+}
+.zhengwen .category .image ol:nth-child(2){
+	width: 335px;
+	height: 159px;
+	float: right;
+}
+.zhengwen .category .image ol:nth-child(3){
+	width: 375px;
+	height: 273px;
+	float: left;
+	margin-top: 10px;
+}
+.zhengwen .category .image ol:last-child{
+	width: 335px;
+	height: 351px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.zhengwen .category .image ol img{
+	width: 100%;
+	height: 100%;
+}
+.zhengwen .category .item2{
+	width: 100%;
+	height: 205px;
+	margin-top: 40px;
+}
+.zhengwen .category .item2 ol:first-child{
+	width: 100%;
+	height: 20px;
+	font-size: 14px;
+	color: #ff3795;
+	font-family: "微软雅黑";
+}
+.zhengwen .category .item2 ol:last-child{
+	width: 100%;
+	height: 185px;
+	font-size: 14px;
+	line-height: 23px;
+	color: #555;
+	font-family: "微软雅黑";
+}
+/* 底部信息 */
+.footer{
+	width: 100%;
+	height: 369px;
+	background: #e82281;
+}
+.lyh-footer-box{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 78px 0 62px 0;
+}
+.lyh-footer-left{
+	float: left;
+	width: 418px;
+	height: 232px;
+	border-right: 1px solid #8B134F;
+	box-sizing: border-box;
+	padding: 10px 0;
+}
+.contact-tit{
+	font-size: 18px;
+	color: #fff;
+}
+.contact-tit img{
+	display: inline-block;
+	margin-left: 15px;
+}
+.contact-content{
+	font-size: 14px;
+	color: #fff;
+	padding: 4px 0;
+}
+.contact-content1{
+	font-size: 18px;
+	color: #fff;
+	margin-right:  42px;
+}
+.lyh-footer-mid{
+	float: left;
+	width: 564px;
+	height: 232px;
+	box-sizing: border-box;
+	padding: 10px 0 10px 52px;
+}
+.lyh-footer-right{
+	float: right;
+	width:216px;
+	height: 212px;
+	margin: 10px 0;
+}
